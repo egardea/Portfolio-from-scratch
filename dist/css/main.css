@@ -1,2 +1,27 @@
 body {
-  background: #f2edd9; }
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  height: 100%; }
+
+nav {
+  text-align: right;
+  padding: 20px; }
+  nav ul {
+    position: fixed;
+    overflow: hidden;
+    margin: 0;
+    width: 100%; }
+  nav li {
+    list-style: none;
+    display: inline;
+    margin: 50px; }
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem; }
+
+.image {
+  background: url(../img/background.jpeg);
+  background-size: cover;
+  height: 500px;
+  margin-top: -80px; }
