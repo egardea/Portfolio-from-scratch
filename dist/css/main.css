@@ -4,24 +4,50 @@ body {
   height: 100%; }
 
 nav {
-  text-align: right;
-  padding: 20px; }
+  padding: 20px;
+  text-align: right; }
   nav ul {
-    position: fixed;
     overflow: hidden;
     margin: 0;
-    width: 100%; }
+    width: 100%;
+    position: fixed; }
   nav li {
     list-style: none;
     display: inline;
     margin: 50px; }
   nav a {
     text-decoration: none;
-    color: black;
-    font-size: 1.25rem; }
+    color: #955a32;
+    font-weight: 500; }
+  nav a:hover {
+    color: #f2edd9;
+    transition: all 0.1s ease-in; }
 
 .image {
-  background: url(../img/background.jpeg);
+  background: url(../img/background.jpeg) no-repeat center center;
   background-size: cover;
-  height: 500px;
-  margin-top: -80px; }
+  width: 100%;
+  height: 750px;
+  margin-top: -135px; }
+
+.icons {
+  text-align: center;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1rem; }
+  .icons h1 {
+    color: #f2edd9;
+    font-size: 50px; }
+  .icons h2 {
+    color: #f2edd9;
+    margin-top: -10px;
+    margin-bottom: 25px; }
+  .icons a {
+    text-decoration: none;
+    color: #955a32;
+    margin: 25px; }
+  .icons a:hover {
+    color: #f2edd9;
+    transition: all 0.1s ease-in; }
