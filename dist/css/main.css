@@ -27,7 +27,8 @@ body {
     margin: 25px; }
   .icons a:hover {
     color: #f2edd9;
-    transition: all 0.1s ease-in; }
+    transition: all 0.1s ease-in;
+    transform: rotate(180deg); }
 
 #projects {
   background-color: #f2edd9;
